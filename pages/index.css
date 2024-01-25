@@ -226,3 +226,112 @@
   gap: 12px;
   justify-content: center;
 }
+/* menu starts here*/
+.menu{
+  background-image: url(/images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 100px;
+}
+.menu__title{
+  text-align: center;
+  margin: 0 0 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.menu__subtitle{
+  text-align: center;
+  margin: 0 0 100px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.menu__cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  list-style-type: none;
+}
+.card {
+  width: 540px;
+}
+.card__title{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 32px;
+
+}
+.card__list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card__list-item{
+  display: flex;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.card__list-divider{
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+}
+/* Menu css finished*/
+.about{
+  background-color: #0a2850;
+
+}
+
+.about__title{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
+  max-width: 251px;
+  padding: 100px 0 0 80px;
+
+}
+
+.about__content{
+  max-width: 660px;
+  margin: 119px 80px 173px 0;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.about__paragraph{
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin: 0;
+}
+
+.about__circle{
+  height: 426px;
+  width: 426px;
+  border-radius: 50%;
+  background-color: hsl(240, 100%, 60%);
+
+}
