@@ -14,3 +14,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 Add your ideas here :)
+  I think that there are few ideas that can improve this project like every time you hover over the logo it changes color and the videos have a happier background.

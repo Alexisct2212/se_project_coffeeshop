@@ -1,3 +1,21 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/resevation.css);
+@import url(../blocks/menu.css);
+@import url(../blocks/about.css);
+@keyframes pulsate{
+  0%{
+    opacity: 0.3;
+  }
+  50%{
+    opacity: 0.6;
+  }
+  100%{
+    transform: scale(1.1);
+  }
+}
 .page{
   min-width: 1100px;
   max-width: 1600px;
@@ -37,6 +55,9 @@
   padding:0 ;
 
 }
+.nav__link:hover{
+  color: #2F80ED;
+}
 .nav__link{
   color: #000;
   text-decoration: none;
@@ -73,7 +94,7 @@
 }
 .header__image{
   position: absolute;
-  top: 130px;
+  top: 80px;
   left: 850px;
   height: 646px;
   width: 568px;
@@ -291,9 +312,16 @@
   flex-grow: 1;
 }
 /* Menu css finished*/
-.about{
-  background-color: #0a2850;
 
+.about{
+  padding: 100px 80px;
+  background-color: #0a2850;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  gap: 120px;
 }
 
 .about__title{
@@ -304,20 +332,18 @@
   line-height: 52px;
   color: #fff;
   max-width: 251px;
-  padding: 100px 0 0 80px;
-
+  z-index: 2;
+  margin: 0;
 }
 
 .about__content{
-  max-width: 660px;
-  margin: 119px 80px 173px 0;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   gap: 20px;
-
+  max-width: 660px;
+  margin: 19px 0 73px auto;
+  z-index: 2;
 }
-
 .about__paragraph{
   font-family: "Noto Serif";
   font-style: normal;
@@ -327,11 +353,84 @@
   color: #fff;
   margin: 0;
 }
-
 .about__circle{
   height: 426px;
   width: 426px;
   border-radius: 50%;
-  background-color: hsl(240, 100%, 60%);
+  z-index: 1;
+  background-color: #2F80ED;
+  top: -152px;
+  left: -129px;
+  position: absolute;
 
+}
+.about__circle_animation_blurred{
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+/* footer*/
+.footer{
+  background:linear-gradient(180deg, #0a2850, 0%, #071931 100%);
+  color: #fff;
+  padding: 60px 80px;
+}
+.footer__content{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.footer__logo{
+  height: 39px;
+  width: 105px;
+}
+.footer__social-heading{
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 20px 0;
+}
+.footer__list{
+  padding: 0;
+  margin: 0;
+}
+.footer__list-item{
+list-style-type: none;
+color: #fff;
+font-family: "Inter";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+margin: 0 0 16px;
+}
+.footer__social-icon{
+  color: #fff;
+  height: 16px;
+  width: 16px;
+
+}
+.footer__social-link{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+.footer__copyright{
+  color: #fff;
+  margin: 108px 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer__social-link:hover{
+  color: #c1c1c1;
 }
