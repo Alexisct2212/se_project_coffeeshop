@@ -54,7 +54,7 @@
 }
 /* footer*/
 .footer{
-  background:linear-gradient(180deg, #0a2850, 0%, #071931 100%);
+ background:linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
   padding: 60px 80px;
 }

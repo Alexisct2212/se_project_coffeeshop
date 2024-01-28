@@ -1,18 +1,18 @@
 .header{
-  background-image: url(/images/background_header.svg);
-  width: 100%;
-  min-height: 720px;
-  max-height: 800px;
+  background-image: url(../images/background_header.svg);
   height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #fff;
   background-repeat: no-repeat;
+  min-height: 720px;
+  max-height: 800px;
+
 }
 .nav{
-  padding: 30px 80px 0 30px;
   display: flex;
   justify-content: space-between;
+  padding: 30px 80px 0 0;
 }
 
 .nav__logo{
@@ -47,6 +47,7 @@
   margin: 183px 0 0 80px;
   letter-spacing: -0.6px;
   font-weight: 500;
+  z-index: 2;
 }
 .header__description{
   max-width: 683px;
@@ -56,6 +57,7 @@
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
+  z-index: 2;
 }
 .header__span-accent{
   display: block;
@@ -65,13 +67,14 @@
   font-size: 60px;
   line-height: 72px;
   color: #2F80ED;
+  z-index: 2;
 }
 .header__image{
-  position: absolute;
-  top: 80px;
-  left: 850px;
-  height: 646px;
-  width: 568px;
+  position:absolute ;
+  top: 124px;
+  left: 785px;
+  height: 568px;
+  width: 646px;
 
 }
 .header__footer{
