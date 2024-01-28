@@ -315,7 +315,7 @@
 
 .about{
   padding: 100px 80px;
-  background-color: #0a2850;
+  background-color: #0A2850;
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -369,7 +369,7 @@
 }
 /* footer*/
 .footer{
-  background:linear-gradient(180deg, #0a2850, 0%, #071931 100%);
+  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
   color: #fff;
   padding: 60px 80px;
 }
