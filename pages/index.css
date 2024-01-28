@@ -25,7 +25,7 @@
   line-height: 20px;
 }
 .header{
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   width: 100%;
   min-height: 720px;
   max-height: 800px;
@@ -126,7 +126,7 @@
 /* recipes content goes heres*/
 .recipes{
   background-color: #0a2750;
-  background-image: url(/images/background_recipes.svg);
+  background-image: url(../images/background_recipes.svg);
   padding: 100px 80px 215px;
 }
 .recipes__title{
@@ -171,7 +171,7 @@
 /* reservation block starts here*/
 .reservation{
   background-color: #d9e7ff;
-  background-image: url(/images/background_reservation.svg);
+  background-image: url(../images/background_reservation.svg);
   background-size: cover;
   padding: 100px 0 120px ;
 }
@@ -249,7 +249,7 @@
 }
 /* menu starts here*/
 .menu{
-  background-image: url(/images/background_menu.svg);
+  background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0 100px;
