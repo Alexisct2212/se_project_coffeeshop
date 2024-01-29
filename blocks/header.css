@@ -1,4 +1,4 @@
-.header{
+.header__block{
   background-image: url(../images/background_header.svg);
   height: 100vh;
   display: flex;
@@ -7,7 +7,9 @@
   background-repeat: no-repeat;
   min-height: 720px;
   max-height: 800px;
-
+  background-size: cover;
+  background-position:center ;
+  position: relative;
 }
 .nav{
   display: flex;
@@ -24,9 +26,10 @@
 .nav__links{
   list-style-type: none;
   display: flex;
+  justify-content: space-between;
   gap: 20px;
   margin: 0 ;
-  padding:0 ;
+  padding:0;
 
 }
 .nav__link:hover{
@@ -35,9 +38,10 @@
 .nav__link{
   color: #000;
   text-decoration: none;
-  font-family: "Inter";
+  font-family: "Inter", arial,sans-serif;
   font-style: normal;
   font-size: 16px;
+  font-weight: 500;
   line-height: 20px;
 }
 .header__title{
@@ -72,7 +76,7 @@
 .header__image{
   position:absolute ;
   top: 124px;
-  left: 785px;
+  right: 5px;
   height: 568px;
   width: 646px;
 
@@ -93,7 +97,7 @@
   color: #6f6f6f;
   margin: 0;
 }
-.header__paragraph-2{
+.header__paragraph{
   display: block;
   margin-top: auto;
 }

@@ -5,14 +5,4 @@
 @import url(../blocks/resevation.css);
 @import url(../blocks/menu.css);
 @import url(../blocks/about.css);
-@keyframes pulsate{
-  0%{
-    opacity: 0.3;
-  }
-  50%{
-    opacity: 0.6;
-  }
-  100%{
-    transform: scale(1.1);
-  }
-}
+@import url(../blocks/footer.css);

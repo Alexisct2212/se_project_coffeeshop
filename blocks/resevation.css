@@ -1,7 +1,9 @@
-.reservation{
+.reservation__block{
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 100px 0 120px ;
 }
 .reservation__title{
@@ -15,11 +17,9 @@
 }
 .reservation__form{
   margin: 0 auto;
-
-}
-.form{
   max-width: 385px;
 }
+
 .form__fieldset{
   padding: 0;
   margin: 0;
