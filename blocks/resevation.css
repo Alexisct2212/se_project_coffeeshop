@@ -1,4 +1,4 @@
-.reservation__block{
+.reservation{
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
@@ -9,7 +9,7 @@
 .reservation__title{
   text-align: center;
   margin: 0 0 80px;
-  font-family: Inter;
+  font-family: "Inter", arial,sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -27,7 +27,7 @@
 
 }
 .form__label{
-  font-family: "Inter";
+  font-family: "Inter", arial,sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

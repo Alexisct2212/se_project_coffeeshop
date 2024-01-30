@@ -1,4 +1,4 @@
-.header__block{
+.header{
   background-image: url(../images/background_header.svg);
   height: 100vh;
   display: flex;
@@ -34,6 +34,7 @@
 }
 .nav__link:hover{
   color: #2F80ED;
+  transition:  1s ease-out;
 }
 .nav__link{
   color: #000;
@@ -58,14 +59,14 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0 80px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif",arial,sans-serif;
   font-style: normal;
   font-weight: normal;
   z-index: 2;
 }
 .header__span-accent{
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", arial,sans-serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -86,7 +87,7 @@
   justify-content: space-between;
   margin-top: auto;
   padding: 0 80px 40px 80px;
-  font-family: "Inter";
+  font-family: "Inter", arial,sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
