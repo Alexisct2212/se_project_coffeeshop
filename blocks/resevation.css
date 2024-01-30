@@ -6,7 +6,7 @@
   background-position: center;
   padding: 100px 0 120px ;
 }
-.reservation__title{
+.reservation__title {
   text-align: center;
   margin: 0 0 80px;
   font-family: "Inter", arial,sans-serif;
@@ -15,18 +15,18 @@
   font-size: 44px;
   line-height: 52px;
 }
-.reservation__form{
+.reservation__form {
   margin: 0 auto;
   max-width: 385px;
 }
 
-.form__fieldset{
+.form__fieldset {
   padding: 0;
   margin: 0;
   border: none;
 
 }
-.form__label{
+.form__label {
   font-family: "Inter", arial,sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -51,8 +51,9 @@
   display: block;
   height: 60px;
   width: 385px;
-  margin: 32px 0 32px 0;
+  margin: 0 0 32px 0;
   background-color: #2F80ED;
+  padding: 0;
   border: none;
   border-radius: 4px;
   font-family: Inter;

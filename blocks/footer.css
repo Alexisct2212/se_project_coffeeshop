@@ -65,5 +65,5 @@
  }
  .footer__social-link:hover{
    color: #c1c1c1;
-   transition:  1s ease-out;
+   transition:  6ms ;
  }
