@@ -26,14 +26,14 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0 80px;
-  font-family: "Noto Serif", "times new Roman", georgia;
+  font-family: "Noto Serif", "times new Roman", "fantasy";
   font-style: normal;
   font-weight: normal;
   z-index: 2;
 }
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", "times new Roman", georgia;
+  font-family: "Noto Serif", "times new Roman", "fantasy";
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
